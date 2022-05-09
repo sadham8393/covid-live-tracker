@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Select, FormControl, MenuItem, InputLabel } from "@material-ui/core";
+import { Select, FormControl, MenuItem } from "@material-ui/core";
 import {
   Chart as ChartJS,
   CategoryScale,

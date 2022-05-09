@@ -73,7 +73,7 @@ export default function covidTrackerReducer(state = initialState, action) {
         chartData: action.chartData
 
       });
-    case types.FETCH_COUNTRY_DATA_FAILED:
+    case types.FETCH_CHART_DATA_FAILED:
       return Object.assign({}, state, {
         ...state,
         isLoading: false,

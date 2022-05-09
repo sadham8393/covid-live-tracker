@@ -1,4 +1,4 @@
-import { put, takeLatest, call, all } from "redux-saga/effects";
+import { put, takeLatest, call } from "redux-saga/effects";
 import * as types from "../utils/constants";
 import {
   fetchCountriesAPI,
