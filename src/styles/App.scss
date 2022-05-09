@@ -1,0 +1,64 @@
+$small-display-size: 700px;
+
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f5f6fa;
+  padding: 20px;
+
+  .rightContainer {
+    .informationContainer {
+      h3 {
+        color: #6a5d5d;
+        font-weight: 400;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        &:last-of-type {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: $small-display-size) {
+    flex-direction: column;
+  }
+}
+
+.leftContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  .chartContainer {
+    margin-top: 5em;
+    align-self: center;
+    width: 75%;
+  }
+}
+
+.appHeader {
+  display: flex;
+  flex-grow: 1;
+  background-color: #f5f6fa;
+  color: #333333;
+  font-weight: 800;
+  padding: 2rem;
+
+  .title {
+    margin: 0;
+  }
+
+  .countryPicker {
+    background-color: #f5f6fa;
+    width: 10em;
+  }
+
+  .menuButton {
+    margin-right: 10px;
+  }
+  .title {
+    flex-grow: 1;
+    display: block;
+    font-weight: 800;
+  }
+}

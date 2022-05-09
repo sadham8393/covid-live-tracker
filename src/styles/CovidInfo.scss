@@ -1,0 +1,43 @@
+.covidStats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.infoBox {
+    width: 10em;
+    height: 10em;
+}
+
+.casesInfo {
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    border: none !important;
+}
+
+.infoTitle {
+    border: none !important;
+}
+
+.totalCase {
+    color: #0956e6;
+    border-bottom: 5px solid #0956e6;
+}
+
+.deathCase {
+    color: #cc1034;
+    border-bottom: 5px solid #cc1034;
+}
+
+.recoveredCase {
+    color: #078855;
+    border-bottom: 5px solid #078855;
+}
+
+.totalInfo {
+    color: #6c757d;
+    font-weight: 800 !important;
+    font-size: 0.8rem !important;
+    margin-top: 15px !important;
+}

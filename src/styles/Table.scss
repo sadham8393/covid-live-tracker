@@ -1,0 +1,40 @@
+.tableRoot {
+    height: 40vh;
+    overflow-x: hidden;
+    .table {
+        overflow: scroll;
+        color: #333333;
+        overflow-x: hidden;
+        font-weight: 600;
+        thead {
+            th {
+                background-color: #a1a4b4;
+                border-right: 1px solid #cccccc;
+            }
+        }
+        tbody {
+            td {
+                border-right: 1px solid #cccccc;
+            }
+            tr {
+                &:nth-child(even) {
+                    background-color: #eee5e5;
+                }
+            }
+        }
+    }
+    .tableHeader {
+        font-weight: 600;
+    }
+    .totalCase {
+        color: #0956e6;
+    }
+
+    .deathCase {
+        color: #cc1034;
+    }
+
+    .recoveredCase {
+        color: #078855;
+    }
+}
